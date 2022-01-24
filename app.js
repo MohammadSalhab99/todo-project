@@ -22,35 +22,38 @@ var arr = []
 
 function wakingUp() {
     var morningWakeup = prompt("Do you wake up early? yes/no");
-    if (morningWakeup != "yes" && morningWakeup != "no")
+    if (morningWakeup != "yes" && morningWakeup != "no") {
         alert("invalid input");
-    else if (morningWakeup == "yes")
-        arr[0] = "Active";
+        arr.push("invalid");
+    } else if (morningWakeup == "yes")
+        arr.push("yes");
     else
-        arr[0] == "lazy";
+        arr.push("no");
 
 }
 
 function training() {
     var workout = prompt("Do you workout? yes/no");
-    if (workout != "yes" && workout != "no")
+    if (workout != "yes" && workout != "no") {
 
         alert("invalid input");
-    else if (workout == "yes")
-        arr[1] = "athletic";
+        arr.push("invalid");
+    } else if (workout == "yes")
+        arr.push("yes");
     else
-        arr[1] = "loves comfort";
+        arr.push("no")
 }
 
 function eatingBreakfast() {
     var eatBreakfast = prompt("Do you eat breakfast? yes/no");
 
-    if (eatBreakfast != "yes" && eatBreakfast != "no")
+    if (eatBreakfast != "yes" && eatBreakfast != "no") {
         alert("invalid input")
-    else if (eatBreakfast == "yes")
-        arr[2] = "healthy";
+        arr.push("invalid");
+    } else if (eatBreakfast == "yes")
+        arr.push("yes");
     else
-        arr[2] = "not healthy";
+        arr.push("no");
 }
 
 function traverseArray(arr) {
