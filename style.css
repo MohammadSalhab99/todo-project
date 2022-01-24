@@ -80,3 +80,15 @@ footer p {
         footer p {
             margin-left: 200px;
         }
+        
+        footer {
+            background-color: black;
+        }
+        
+        .rights {
+            color: blanchedalmond;
+            text-align: center;
+            vertical-align: middle;
+            display: inline;
+        }
+
