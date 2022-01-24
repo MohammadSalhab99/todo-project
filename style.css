@@ -1,3 +1,4 @@
+
 .navigation {
     background-color: aquamarine;
     padding: 20px;
@@ -38,3 +39,44 @@ footer {
 footer p {
     margin-left: 200px;
 }
+
+        .navigation {
+            background-color: aquamarine;
+            padding: 20px;
+        }
+        
+        #img2 {
+            float: right;
+        }
+        
+        #indexTab {
+            width: 200px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #img1 {
+            float: left;
+        }
+        
+        li {
+            display: inline;
+            padding: 30px;
+        }
+        
+        .navigation a {
+            text-decoration: none;
+        }
+        
+        #namediv {
+            margin-left: 300px;
+        }
+        
+        footer {
+            margin-top: 230px;
+        }
+        
+        footer p {
+            margin-left: 200px;
+        }
